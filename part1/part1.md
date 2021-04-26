@@ -1,20 +1,20 @@
 # Part 1a
 
 ## 1. 
-Line 9 prints: `values added: 20`
+> Line 9 prints: `values added: 20`
 ## 2. 
-Line 13 prints: `final result: 20`
+> Line 13 prints: `final result: 20`
 ## 3. 
-Line 9 prints: `values added: 20`
+> Line 9 prints: `values added: 20`
 ## 4. 
-Line 13 does not print. There is a  `Reference error`, result was defined using let so it is out of the scope compared to using var.
+> Line 13 does not print. There is a  `Reference error`, result was defined using let so it is out of the scope compared to using var.
 ## 5. 
-Line 9 does not print, there is an error because result is a `const` variable and cannot be motified.
+> Line 9 does not print, there is an error because result is a `const` variable and cannot be motified.
 ## 6. 
-Line 13 throws a `Reference Error` because the variable result is out of scope
+> Line 13 throws a `Reference Error` because the variable result is out of scope
 
 # Part 1b
-s
+
 ## 1. 
 Line 12 prints: `3` i is visible outside of the for loop because it was declared using i, since we are passing an array of size 3, our for loop iteration will end at 3. 
 ## 2. 
