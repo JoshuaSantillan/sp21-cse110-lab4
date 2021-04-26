@@ -9,6 +9,6 @@ let statistics = {
 
 for(const carStats in statistics){
     if(carStats.startsWith('r') || statistics[carStats] % 2 == 1){
-        console.log(statistics[carStats])
+        console.log(statistics[carStats]);
     }
 }
