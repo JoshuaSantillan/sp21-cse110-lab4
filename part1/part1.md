@@ -63,7 +63,7 @@ The function `returns an array` that updates all the prices in the passed in arr
 `==` is used for comparing two variables ignoring the data type, whereas `===` is comparing two variables but also checking that the data types are the same, without doing any conversion
 ## 16. NOT IN THIS FILE
 ## 17. 
-The function takes an array and a callback, in this case we are passing [1,2,3] and doSomething into modifyArray. We are iterating through all the elements in the array and using the `doSomething` function as our callback to multiply every element in the array by 2. After the code is executed our new modifed array would be: `[2,4,6].
+The function takes an array and a callback, in this case we are passing [1,2,3] and doSomething into modifyArray. We are iterating through all the elements in the array and using the `doSomething` function as our callback to multiply every element in the array by 2. After the code is executed our new modifed array would be: `[2,4,6]`.
 ## 18. NOT IN THIS FILE
 ## 19. 
 `Output: 1 4 3 2`
