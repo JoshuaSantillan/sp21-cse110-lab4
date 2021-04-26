@@ -7,27 +7,27 @@
 ## 6. Line 13 throws a `Reference Error` because the variable result is out of scope
 # Part 1b
 ## 1. 
-    Line 12 prints: `3` i is visible outside of the for loop because it was declared using i, since we are passing an array of size 3, our for loop iteration will end at 3. 
+Line 12 prints: `3` i is visible outside of the for loop because it was declared using i, since we are passing an array of size 3, our for loop iteration will end at 3. 
 ## 2. 
-    Line 13 prints: `150` because the last value saved is going to be prices[2] which is 300, and 300 * .5 = 150. Since it is declared with var we have access outside of the scope.
+Line 13 prints: `150` because the last value saved is going to be prices[2] which is 300, and 300 * .5 = 150. Since it is declared with var we have access outside of the scope.
 ## 3. 
-    Line 14 also prints: `150` because the last discounted price saved was 150. 150 * 100 / 100 = 150 * 1 = 150. Because we are using var it has access outside of the loop.
+Line 14 also prints: `150` because the last discounted price saved was 150. 150 * 100 / 100 = 150 * 1 = 150. Because we are using var it has access outside of the loop.
 ## 4. 
-    The function `` returns an array`` with updated values than the original. We passed [100,200,300] into the array and multiplied each element by .5 giving us [50,100,150] to return.
+The function `` returns an array`` with updated values than the original. We passed [100,200,300] into the array and multiplied each element by .5 giving us [50,100,150] to return.
 ## 5. 
-    The fuction causes a `reference error` because we are trying to call `i` out of scope. `i` was declared using let so we cannot access it outside of the for loop.
+The fuction causes a `reference error` because we are trying to call `i` out of scope. `i` was declared using let so we cannot access it outside of the for loop.
 ## 6. 
-    The function causes a `reference error` because discountedPrice is not declared in the scope. Inside the for loop it is declared with the let keyword so once the loop terminates the value is gone.
+The function causes a `reference error` because discountedPrice is not declared in the scope. Inside the for loop it is declared with the let keyword so once the loop terminates the value is gone.
 ## 7. 
-    Line 14 prints `150`. finalPrice was declared in an appropiate spot, before the loop. So, when we run the function the value is not lost outside of the scope function. The last value to be updated by finalPrice is 150 * 100/100 = 150.
+Line 14 prints `150`. finalPrice was declared in an appropiate spot, before the loop. So, when we run the function the value is not lost outside of the scope function. The last value to be updated by finalPrice is 150 * 100/100 = 150.
 ## 8. 
-    The function will ``return an array`` of the ``updated prices`` with the discount applied, in this case it will return: `[50,100,150]`.
+The function will ``return an array`` of the ``updated prices`` with the discount applied, in this case it will return: `[50,100,150]`.
 ## 9. 
-    The function causes a `reference error` because i was declared using the let keyword, we cannot access it outside of the loop.
+The function causes a `reference error` because i was declared using the let keyword, we cannot access it outside of the loop.
 ## 10. 
-    Line 12 prints `3` because length was declared as const outside of the for loop. Since it was declared in an appropiate spot we are able to call it after the loop, (inside as well).
+Line 12 prints `3` because length was declared as const outside of the for loop. Since it was declared in an appropiate spot we are able to call it after the loop, (inside as well).
 ## 11. 
-    The function `returns an array` that updates all the prices in the passed in array to a new discounted version. After multipying each element by .5 we return: `[50,100,300]`
+The function `returns an array` that updates all the prices in the passed in array to a new discounted version. After multipying each element by .5 we return: `[50,100,300]`
 ## 12. 
  - A. student.name
  - B. student['Grad Year']
@@ -51,10 +51,10 @@
  - E. Result: `False` because true gets mapped to 1, and 1 is not qual to 2
  - F. Result: `True` because both sides are the same type of boolean abd Boolean(2) is a true value, so comparing will be result in a true value.
 ## 15. 
-    `==` is used for comparing two variables ignoring the data type, whereas `===` is comparing two variables but also checking that the data types are the same, without doing any conversion
+`==` is used for comparing two variables ignoring the data type, whereas `===` is comparing two variables but also checking that the data types are the same, without doing any conversion
 ## 16. NOT IN THIS FILE
 ## 17. 
-    The function takes an array and a callback, in this case we are passing [1,2,3] and doSomething into modifyArray. We are iterating through all the elements in the array and using the `doSomething` function as our callback to multiply every element in the array by 2. After the code is executed our new modifed array would be: `[2,4,6].
+The function takes an array and a callback, in this case we are passing [1,2,3] and doSomething into modifyArray. We are iterating through all the elements in the array and using the `doSomething` function as our callback to multiply every element in the array by 2. After the code is executed our new modifed array would be: `[2,4,6].
 ## 18. NOT IN THIS FILE
 ## 19. 
-    `Output: 1 4 3 2`
+`Output: 1 4 3 2`
