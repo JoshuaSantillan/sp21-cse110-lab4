@@ -4,4 +4,4 @@ function getTime() {
     console.log(time);
 }
 
-const currentTime = setInterval(getTime, 1000);;
+const currentTime = setInterval(getTime, 1000);
